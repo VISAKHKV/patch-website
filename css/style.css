@@ -358,7 +358,7 @@ header div.right ul li a.button {
 	border-radius: 50%;
 	width: 80px;
 	height: 80px;
-	margin: 60px 0 40px;
+	margin: 60px auto 40px;
 }
 #testimonial div.container div.item h6 {
 	font-size: 18px;
@@ -445,6 +445,9 @@ header div.right ul li a.button {
 
 }
 #faq section.content section.tab-body div.item {
+	display: none;
+}
+#faq section.content section.tab-body div.item.active {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;

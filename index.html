@@ -3,14 +3,18 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>We Can Pay Your Landlord Deposit | Patch</title>
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
-		
 		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico" />
-
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta property="og:image" content="" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="css/owl.theme.default.min.css" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/script.js"></script>
 	</head>
 	<body>
 		<section id="home">
@@ -116,7 +120,7 @@
 		</section>		<!-- ( #middle )-->
 		<section id="testimonial">
 			<section class="wrapper">
-				<div class="container">
+				<div class="container owl-carousel owl-theme">
 					<div class="item">
 						<p>
 							"patch is one of the best ways to improve your 
@@ -126,9 +130,17 @@
 						<h6>Jeremy B</h6>
 						<span>Bath.BA2</span>
 					</div>
+					<div class="item">
+						<p>
+							"patch is one of the best ways to improve your 
+							credit history and it's completely free."
+						</p>
+						<img src="images/testimonial-1.jpg" alt="jeremy B" />
+						<h6>James</h6>
+						<span>Bath.BA2</span>
+					</div>
 				</div>
 			</section>
-			<hr class="line" />
 		</section>		<!-- ( #testimonial )-->
 		<section id="count">
 			<section class="wrapper">
@@ -145,13 +157,13 @@
 				<section class="content">
 					<section class="tab-head">
 						<ul>
-							<li><a href="#" class="active" >Rent Tracking</a></li>
-							<li><a href="#">New deposit</a></li>
-							<li><a href="#">Existing Deposit</a></li>
+							<li><a data-id="first_tab" href="javascript:void(0)" class="active" >Rent Tracking</a></li>
+							<li><a data-id="second_tab" href="javascript:void(0)">New deposit</a></li>
+							<li><a data-id="third_tab" href="javascript:void(0)">Existing Deposit</a></li>
 						</ul>
 					</section>		<!-- ( #faq > .content > .tab-head )-->
 					<section class="tab-body">
-						<div class="item">
+						<div id="first_tab" class="item active">
 							<ul>
 								<li>
 									<h4>What is Rent Tracking?</h4>
@@ -176,6 +188,45 @@
 								<li>
 									<h4>What if I change property?</h4>
 									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias tempora eveniet fuga deserunt molestiae, eius quaerat iste nemo.</p>
+								</li>
+							</ul>
+						</div>
+						<div id="second_tab" class="item">
+							<ul>
+								<li>
+									<h4>What is Rent Tracking?</h4>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem quod, officia nostrum ea enim deserunt facere quasi dolorum </p>
+								</li>
+								<li>
+									<h4>How does Rent Tracking work?</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem odit distinctio sint assumenda aut totam omnis fuga id. </p>
+								</li>
+								<li>
+									<h4>How do I see what you've tracked?</h4>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eaque adipisci maiores laborum ex excepturi non!</p>
+								</li>
+						</div>
+						<div id="third_tab" class="item">
+							<ul>
+								<li>
+									<h4>What is Rent Tracking?</h4>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem quod, officia nostrum ea enim deserunt facere quasi dolorum </p>
+								</li>
+								<li>
+									<h4>How does Rent Tracking work?</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem odit distinctio sint assumenda aut totam omnis fuga id. </p>
+								</li>
+								<li>
+									<h4>How do I see what you've tracked?</h4>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eaque adipisci maiores laborum ex excepturi non!</p>
+								</li>
+								<li>
+									<h4>How much does Rent Tracking cost?</h4>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis cumque est amet dicta sed nobis error blanditiis magnam quas.</p>
+								</li>
+								<li>
+									<h4>How does Rent Tracking improve my credit history?</h4>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias culpa aspernatur, cumque aperiam architecto iste deleniti ea!</p>
 								</li>
 							</ul>
 						</div>
